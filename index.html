@@ -1,21 +1,49 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
-    <style>
-        body,html {
-            padding: 0;
-            margin: 0;
-        }
-        #main {
-            width: 100vw;
-            height: 100vh;
-            background-color: cornflowerblue;
-        }
-    </style>
+    <link rel="stylesheet" href="https://use.typekit.net/qqj3bqp.css">
+    <script type="module" src="./script.js"></script>
+    <link href="./style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
-<body>
+<body class="noselect scrollbar-hidden">
+    <div class="container">
     <div id="main">
-        <a id="btn"></a>
+        <center>
+            <div id="heading">
+                -----------
+            </div>
+            <div id="subheading">
+                <font style="color: #5A708C;">&lt</font>----------------------------------------------------------------------------<font style="color: #5A708C;"> /&gt</font>
+            </div>
+        </center>
+    </div>
+    <div id="main2-back"></div>
+    <div id="main2">
+        <center>
+        <footer>
+            <div>----------------</div>
+        </footer>
+        </center>
+    </div>
+    <div id="main-back">
+        <div id="cursor"></div>
+        <div id="wavecontainer">
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(141, 203, 242,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(141, 203, 242,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(141, 203, 242,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(141, 203, 242)" />
+            </g>
+            </svg>
+        </div>
+        <div id="underwater-transition"></div>
+    </div>
     </div>
 </body>
 </html>
